@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html{ 
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+body{
+    height:100vh ;
+    
+}
+.top{
+    color: aliceblue;
+    width: 325px;
+    margin: auto; 
+    text-align: center;        
+}
+
+.top h1{
+    font-weight: bold;
+}
+.container{
+    margin:auto;
+    background-color: aliceblue;
+    width: 325px;
+    height: 90%;
+    border:solid aliceblue;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 0 rgb(215, 223, 230);
+}
+.firstLevel{
+    padding-top: 5px;
+    text-align: center;
+    background-color: rgb(167, 225, 253);
+    margin: 0 0 15px 0;
+    border-radius: 15px 15px 0 0 ;
+    color: rgb(20, 109, 243);
+    width: 100%;
+    height: 20%;  
+    font-weight: bolder;  
+}
+#search-input{
+    border: none;
+}
+#search-button{
+    border-radius: 5px;
+    border-color: rgb(7, 4, 219);
+    background-color:  rgb(7, 4, 219);
+    color: white;
+    margin-left: 5px;
+}
+#warn{
+    color: red;
+    font-weight: bolder;
+}
+.secondLevel{    
+    height: 35%;    
+}
+#pokemon-name, #pokemon-id {
+    margin: 0 0 15px 15px;
+    padding-top: 20px;
+    display: inline;
+    font-weight: bold;
+}
+
+.texto p{
+    display:inline;
+    font-size: small;
+    margin: 0 0 10px 15px ;
+    padding-top: 50px;
+    
+}
+#pimage{
+    margin-top: 30px;
+    text-align: center;    
+}
+.botones{
+    text-align: center;    
+    width: 70px;
+    padding: 5px;
+    border-radius:5px;
+    font-size: smaller;
+    border: solid 1px;
+    display: inline;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+.thirdLevel{
+    height: 45%;    
+}
+.thirdLevel table {
+    width: 100%;
+    text-align: center;
+}
+.thirdLevel th, td {
+    border: 1px solid rgb(99, 175, 247)lack;
+    background-color: rgb(99, 175, 247);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+.thirdLevel th{
+    font-weight: bold;
+}
+#lasttd td:nth-child(1){
+    border-radius: 0 0 0 15px ;
+}
+
+#lasttd td:nth-child(2){
+    border-radius: 0 0 15px 0;
+}
